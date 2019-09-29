@@ -1,0 +1,184 @@
+
+/*Inicio de las configuraciones del css*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #efefee;
+    font-family: sans-serif;
+}
+
+/*Este es el contendor de nuestra imagen y sus propiedades*/
+.perfil{
+    width: 40%;
+    float: right;
+}
+
+.perfil img{
+    width: 100%;
+    height: 100%;
+}
+
+.yo{
+    margin-left: 15px;
+}
+
+.info{
+    width: 60%;
+    height: 100vh;
+    float: left;
+    padding: 0 30px;
+    overflow: scroll;
+    overflow-x: hidden;
+}
+
+.info::-webkit-scrollbar{
+    width: 0;
+}
+
+.info h1{
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+
+.redes img{
+
+    height: 30px;
+    margin-right: 15px;
+}
+
+.redes{
+    margin-top: 20px;
+    margin-left: 15;
+}
+
+.info h2{
+    margin-top: 50px;
+    margin-bottom: 15px;
+}
+
+.acerca{
+    text-align: justify;
+}
+
+.experiencia img{
+    height: 100px;
+    margin: 5px;
+}
+
+.experiencia{
+    display: inline-block;
+    width: 28%;
+    padding: 30px 10px;
+    margin: 2%;
+    text-align: center;
+    box-shadow: 0 0 15px 1px rgba(37, 73, 214, 0 , 218);
+    background: #fff;
+
+}
+
+.experiencia small{
+
+    padding-top: 10px;
+    display: block;
+    text-align: justify;
+}
+
+
+
+.proyectos img{
+
+    width: 31%;
+    height: 150px;
+    padding: 4px;
+    margin-bottom: 5px;
+    margin-left: 5px;
+}
+
+.formulario{
+    margin-top: 30px;
+}
+
+.entradas input{
+    
+    width: 45%;
+    border: 0;
+    outline: none !important;
+    padding: 10px;
+    margin: 2%;
+    display: inline-block;
+    background: #fff;
+
+}
+
+.mensaje textarea{
+    width: 90%;
+    border: 0;
+    outline: none !important;
+    background: #fff;
+    padding: 10px;
+    margin: 2%;
+
+}
+
+.boton{
+
+    border: 0;
+    outline: none !important;
+    padding: 10px 20px;
+    margin: 2%;
+    background: #fff;
+    background: #2ab0ff;
+    cursor: pointer;
+    color: white;
+
+}
+
+.contacto img{
+    width: 20px;
+    margin: -5px 10px;
+}
+
+.contacto span{
+    margin: 3%;
+}
+
+.contacto{
+    margin: 5% 0 5% 25%;
+    width: 65%;
+}
+
+@media only screen and (max-width: 900px){
+
+    .info{
+        width: 100%;
+        overflow: inherit;
+    }
+
+    .perfil{
+        width: 100%;
+    }
+
+    .experiencia{
+        width: 95%;
+        margin-bottom: 10%;
+    }
+
+    .experiencia img{
+        height: 8%;
+        margin: 10px 0; 
+    }
+
+    .proyectos img{
+        width: 47%;
+
+    }
+    
+    span{
+        display: block;
+    }
+
+}
