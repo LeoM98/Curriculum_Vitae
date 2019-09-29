@@ -168,12 +168,13 @@ a{
     }
 
     .experiencia{
-        width: 75%;
+        width: 95%;
         margin-bottom: 10%;
     }
 
     .experiencia img{
         height: 8%;
+        width: 50%;
         margin: 10px 0; 
     }
 
