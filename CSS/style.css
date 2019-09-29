@@ -64,6 +64,11 @@ body{
     text-align: justify;
 }
 
+a{
+    text-decoration: none;
+    color: black;
+}
+
 .experiencia img{
     height: 100px;
     margin: 5px;
