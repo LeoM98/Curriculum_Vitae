@@ -183,8 +183,10 @@ a{
 
     }
     
+    .contacto{
+        width: 100%;
+    }
     span{
-        width: 95%;
         display: block;
     }
 
