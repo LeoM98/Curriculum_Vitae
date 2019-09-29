@@ -156,7 +156,7 @@ a{
     width: 65%;
 }
 
-@media only screen and (max-width: 900px){
+@media only screen and (max-width: 1000px){
 
     .info{
         width: 100%;
@@ -168,7 +168,7 @@ a{
     }
 
     .experiencia{
-        width: 95%;
+        width: 75%;
         margin-bottom: 10%;
     }
 
