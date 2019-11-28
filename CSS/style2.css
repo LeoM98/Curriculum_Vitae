@@ -129,15 +129,17 @@ html {
     #title{
       width: 50%;
       overflow: inherit;
+      margin-left: 25%;
     }
 
     #title span {
       vertical-align: middle;
       line-height: 35px;
       transition: font-size 2s cubic-bezier(0, 1, 0, 1);
+      font-size: 30px;
     }
     #title span:hover {
-      font-size: 90%; /* This adds a hover effect */
+      font-size: 20%; /* This adds a hover effect */
       line-height: 1em;
       transition: font-size .2s cubic-bezier(0, 0.75, 0, 1);
     }
