@@ -74,8 +74,7 @@ html {
   }
   #title span {
     vertical-align: middle;
-    line-height: 1.5em;
-    transition: font-size 2s cubic-bezier(0, 1, 0, 1);
+    transition: font-size 1s cubic-bezier(0, 0.5, 0, 0.5);
   }
   #title span:hover {
     font-size: 1.5em; /* This adds a hover effect */
@@ -138,7 +137,7 @@ html {
       transition: font-size 2s cubic-bezier(0, 1, 0, 1);
     }
     #title span:hover {
-      font-size: 125%; /* This adds a hover effect */
+      font-size: 90%; /* This adds a hover effect */
       line-height: 1em;
       transition: font-size .2s cubic-bezier(0, 0.75, 0, 1);
     }
